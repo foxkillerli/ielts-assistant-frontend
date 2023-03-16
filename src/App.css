@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.app-container {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mic-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+  margin-bottom: 200px; /* Adjust this value to add more space between the mic button and the footer */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

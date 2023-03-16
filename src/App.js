@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './common/Footer.js';
+import MicButton from './components/MicButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <textarea id="w3review" name="w3review" rows="40" cols="50">
+      
+      </textarea>
+      <div className="mic-button-container">
+        <MicButton />
+      </div>
+      <Footer />
     </div>
   );
 }

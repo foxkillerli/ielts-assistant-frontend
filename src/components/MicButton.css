@@ -1,0 +1,57 @@
+.mic-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .mic-button:hover {
+    background-color: #45a049;
+  }
+  
+  .mic-icon {
+    width: 26px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .mic-icon:before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .mic-icon:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 6px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius:2px;
+  }
+    /* Adjust the position of the mic button if needed */
+  .mic-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
